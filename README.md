@@ -39,13 +39,7 @@ How to know I access
 Swagger: http://localhost:8000/docs
 Outer Acceess: http://<Raspi_IP>:8000/docs
 
-RobotWebServer/
-├── app/
-│   ├── main.py              # FastAPI 앱
-│   ├── endpoints.py         # REST API 라우터
-│   ├── ros_interface.py     # ROS 퍼블리셔/서브스크라이버
-│   ├── command_model.py     # Pydantic 모델
-│   └── __init__.py
+<pre><code> RobotWebServer/ ├── app/ │ ├── main.py # FastAPI 앱 │ ├── endpoints.py # REST API 라우터 │ ├── ros_interface.py # ROS 퍼블리셔/서브스크라이버 │ ├── command_model.py # Pydantic 모델 │ └── __init__.py ├── run_server.py # 실행 스크립트 ├── requirements.txt # Python 의존성 목록 └── README.md # 설치 가이드 </code></pre>
 ├── run_server.py            # 실행 스크립트
 ├── requirements.txt         # Python 의존성 목록
 └── README.md                # 설치 가이드

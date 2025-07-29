@@ -39,7 +39,9 @@ How to know I access
 Swagger: http://localhost:8000/docs
 Outer Acceess: http://<Raspi_IP>:8000/docs
 
-<pre><code> RobotWebServer/ ├── app/ │ ├── main.py # FastAPI 앱 │ ├── endpoints.py # REST API 라우터 │ ├── ros_interface.py # ROS 퍼블리셔/서브스크라이버 │ ├── command_model.py # Pydantic 모델 │ └── __init__.py ├── run_server.py # 실행 스크립트 ├── requirements.txt # Python 의존성 목록 └── README.md # 설치 가이드 </code></pre>
-├── run_server.py            # 실행 스크립트
-├── requirements.txt         # Python 의존성 목록
-└── README.md                # 설치 가이드
+<img width="806" height="449" alt="image" src="https://github.com/user-attachments/assets/05999c37-29ce-4894-a7c9-da1110e7266b" />
+
+
+SSH인증이 필요할 때 -GIT
+ssh-keygen -t ed25519 -C "your@email.com"
+cat ~/.ssh/id_ed25519.pub

@@ -1,3 +1,8 @@
+## 현재 이 브런치 정보
+app 폴더는 기존의 폴더 -- 미사용
+나머지 부분들 사용
+
+
 
 <img width="981" height="558" alt="image" src="https://github.com/user-attachments/assets/ae253110-b621-49e4-8554-89922ec4fc9b" />
 
